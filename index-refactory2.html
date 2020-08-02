@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<title>FILM - html</title>
+<meta charset="utf-8">
+
+
+<style>
+
+ h1{ font-size:60px;
+ text-align: center;
+border-bottom: 1px black solid;
+margin:0px;
+padding:10px;
+background-color:coral;
+color:powderblue;}
+
+ ol{border-right: 1px solid gray;
+width:110px;
+margin:0px;
+padding:30px;
+}
+
+a{text-decoration: none black;}
+
+
+
+#grid{ display:grid;
+grid-template-columns:200px 1fr;
+margin:0px;
+}
+#article{padding:2px;}
+
+.Js{font-weight: bold;
+color:red;}
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+  <!--style="color:black; text-decoration:underline"-->
+  <h1>lANGUAGE</a></h1>
+
+
+  <div id="grid">
+  <ol>
+  <li><a href="hllp://a.com/">Javascript</a></li>
+  <li><a href="hllp://b.com/">CSS</a></li>
+  <li><a href="hllp://c.com/">HTML</a></li>
+</ol>
+
+<div id="article">
+
+<h2>CSS</h2>
+<a href="https://ja.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">Cascading Style Sheets</a>（CSS、カスケーディング・スタイル・シート、カスケード・スタイル・シート、日: 段階スタイルシート[1]）は、HTML や XML の要素をどのように修飾（表示）するかを指示する仕様の一つで、<span class="Js">World Wide Web</span>
+   Consortium (W3C) がとりまとめ勧告する。文書の構造と体裁を分離させるという理念を実現するために提唱されたスタイルシートの具体的な仕様の一つ。
+
+
+   <input  type="button" value="night" onclick=
+   " var target =document.querySelector('body');
+   if   (this.value === 'night')
+   {target.style.backgroundColor = 'black';
+   target.style.color = 'white';
+   this.value ='day' ;
+
+
+   var alist = document.querySelectorAll('a');
+   var i = 0;
+   while (i < alist.length)
+   {  alist[i].style.color= 'powderblue';
+   i = i + 1;
+   }
+
+   }
+     else{
+       target.style.backgroundColor = 'white';
+       target.style.color = 'black';
+       this.value ='night' ;
+
+       var alist = document.querySelectorAll('a');
+       var i = 0;
+       while (i < alist.length)
+       {  alist[i].style.color= 'blue';
+
+       i = i + 1;
+
+       }
+   }
+   ">
+
+
+</div>
+</div>
+</body>
+</html>
